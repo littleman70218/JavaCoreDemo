@@ -4,6 +4,7 @@ public class Hero implements Comparable<Hero>{
 	private String name;
 	private String gender;
 	private int salary;
+	int j=0;
 	public Hero(String name, String gender, int salary) {
 		this.name = name;
 		this.gender = gender;
