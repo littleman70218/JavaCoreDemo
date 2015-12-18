@@ -7,7 +7,7 @@ public class FilesCounter {
 	static int scount =0;
 	static String firstpath;
 	public static void main(String[] args) {
-		Criteria criteria=new Criteria("C:/User/snavid/Desktop/Antra/java", ".docx", 1);
+		Criteria criteria=new Criteria("C:/Users/navid/Desktop/Antra/java", ".docx", 1);
 		firstpath=criteria.filepath;
 		FilesCounter filecounter = new FilesCounter();
 		filecounter.count(criteria);
